@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8" />
+    <title>MD Technics | Galerija</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="../img/weather.png">
+	<meta name="autor" content="Milos Resanovic">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+    <link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/responsive.css">
+	<!--  ovo sam dodao -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+	<!-- ovde je kraj dodatog -->
+
+</head>
+<body>
+
+
+
+<header class="header">
+    <div class="container">
+        <div class="logo text-center">
+            <a href="../index.html"><img id="slikaLogo" src="../img/noviLogoEdit.png" alt="novi logo firme"/></a>
+        </div>
+        <div class="contact-left ">
+            <div class="img-box">
+                <img src="../img/clock-icon.png" alt="Awesome Image"/>
+            </div>
+            <div class="text-box">
+                <h3>Radno vreme:</h3>
+				<p>Pon - Pet : 9:00 do 17:00 </p>
+				<p>Izlazak na teren 24/7 po potrebi</p>
+            </div>
+        </div>
+        <div class="contact-right ">            
+            <div class="text-box">
+                <h3>Adresa:</h3>
+				<p>Kapetana Miloša Žunjiċa 34/a</p>
+				<p>BEOGRAD – Zvezdara</p>
+            </div>
+            <div class="img-box">
+                <img src="../img/home-icon.png"  alt="Awesome Image"/>
+            </div>
+        </div>
+    </div>
+</header>
+
+<nav class="navbar navbar-default header-navigation stricky padding-nula">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-bar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="main-nav-bar">
+            
+
+            <ul class="nav navbar-nav navigation-box centriranje">
+                <li class="aktivan">
+                    <a href="../index.html" class="aktivan">Početna</a>
+                </li>
+                <li>
+                    <a href="gallery-1.html">Galerija</a>
+                </li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+            
+        </div>
+    </div>
+</nav>
+
+
+
+<section class="page-title">
+	<div class="container text-center">
+		<h2 id="naslovKontakt">Galerija</h2>
+	</div>
+</section>
+
+<!-- <section class="gallery-area sec-pad">
+	<div class="container">
+		<div class="top-box clearfix">
+			<div class="sec-title pull-left">
+				<h2>Neki od poslova</h2>
+				<div class="decor-line"></div>
+			</div>
+			<div class="gallery-filter pull-right">
+				<ul class="list-inline post-filter masonary">
+					<li class="filter active" data-filter=".masonary-item"><span>All Works</span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="masonary-layout row filter-layout" data-filter-class="filter">
+			<div class="col-md-4 col-sm-6 col-xs-12 masonary-item single-filter-item heating installation">
+				<div class="single-gallery">
+					<img src="../img2/slike/prviFolder/komora1.jpg" alt="Awesome Image"/>
+					<div class="overlay">
+						<div class="content">
+							<p>Outlet Air Condition</p>
+							<h3>Maintainence & Repairing</h3>
+							<a href="../img2/slike/prviFolder/komora1.jpg" class="img-popup">+</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8 col-sm-6 masonary-item single-filter-item maintain windows">
+				<div class="single-gallery">
+					<img src="../img2/slike/prviFolder/komora1.jpg" alt="Awesome Image"/>
+					<div class="overlay">
+						<div class="content">
+							<p>Outlet Air Condition</p>
+							<h3>Maintainence & Repairing</h3>
+							<a href="../img2/slike/prviFolder/komora1.jpg" class="img-popup">+</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12 masonary-item single-filter-item heating">
+				<div class="single-gallery">
+					<img src="img/gallery-3.jpg" alt="Awesome Image"/>
+					<div class="overlay">
+						<div class="content">
+							<p>Outlet Air Condition</p>
+							<h3>Maintainence & Repairing</h3>
+							<a href="img/gallery-3.jpg" class="img-popup">+</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12 masonary-item single-filter-item maintain">
+				<div class="single-gallery">
+					<img src="img/gallery-4.jpg" alt="Awesome Image"/>
+					<div class="overlay">
+						<div class="content">
+							<p>Outlet Air Condition</p>
+							<h3>Maintainence & Repairing</h3>
+							<a href="img/gallery-4.jpg" class="img-popup">+</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12 masonary-item single-filter-item heating">
+				<div class="single-gallery">
+					<img src="img/gallery-5.jpg" alt="Awesome Image"/>
+					<div class="overlay">
+						<div class="content">
+							<p>Outlet Air Condition</p>
+							<h3>Maintainence & Repairing</h3>
+							<a href="img/gallery-5.jpg" class="img-popup">+</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section> -->
+<!-- <div id="mojaGalerija"> -->
+	<div class="photo-gallery">
+		<div class="container">
+			<div class="intro">
+                <h2 class="text-center">Izrada rashladnih komora</h2>
+                <p class="text-center">Izrada komora od poliuretanskih pocinkovanih panela za cuvanje robe razlicite namene na temperaturama do -40°C.  </p>
+            </div>
+			<div class="row photos">
+				<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img2/slike/prviFolder/komora1.jpg" data-lightbox="photos"><img class="img-fluid" src="../img2/slike/prviFolder/komora1.jpg"></a></div>
+				<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img2/slike/prviFolder/komora2.jpg" data-lightbox="photos"><img class="img-fluid" src="../img2/slike/prviFolder/komora2.jpg"></a></div>
+				<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img2/slike/prviFolder/komora3.jpg" data-lightbox="photos"><img class="img-fluid" src="../img2/slike/prviFolder/komora3.jpg"></a></div>
+				<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img2/slike/prviFolder/komora4.jpg" data-lightbox="photos"><img class="img-fluid" src="../img2/slike/prviFolder/komora4.jpg"></a></div>
+			</div>
+		</div>
+	</div>
+	<div class="photo-gallery">
+		<div class="container">
+			<div class="intro">
+                <h2 class="text-center">Montaža Bitzer agregata</h2>
+                <p class="text-center">Montaze rashladne opreme na objektu Ducla Trading D.o.o  </p>
+            </div>
+			<div class="row photos">
+				<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img2/slike/drugiFolder/agregat1.jpg" data-lightbox="photos"><img class="img-fluid" src="../img2/slike/drugiFolder/agregat1.jpg"></a></div>
+				<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img2/slike/drugiFolder/agregat2.jpg" data-lightbox="photos"><img class="img-fluid" src="../img2/slike/drugiFolder/agregat2.jpg"></a></div>
+				<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img2/slike/drugiFolder/agregat3.jpg" data-lightbox="photos"><img class="img-fluid" src="../img2/slike/drugiFolder/agregat3.jpg"></a></div>
+				<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img2/slike/drugiFolder/agregat4.jpg" data-lightbox="photos"><img class="img-fluid" src="../img2/slike/drugiFolder/agregat4.jpg"></a></div>
+			</div>
+		</div>
+	</div>
+	<div class="photo-gallery">
+		<div class="container">
+			<div class="intro">
+                <h2 class="text-center">Montaža čilera</h2>
+                <p class="text-center">Izrada i montaza rashladnog cilera za klimatizaciju operacionih sala u opstoj bolnici Sremska Mitrovica</p>
+            </div>
+			<div class="row photos">
+				<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img2/slike/treciFolder/ciler1.jpg" data-lightbox="photos"><img class="img-fluid" src="../img2/slike/treciFolder/ciler1.jpg"></a></div>
+				<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img2/slike/treciFolder/ciler2.jpg" data-lightbox="photos"><img class="img-fluid" src="../img2/slike/treciFolder/ciler2.jpg"></a></div>
+				<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img2/slike/treciFolder/ciler3.jpg" data-lightbox="photos"><img class="img-fluid" src="../img2/slike/treciFolder/ciler3.jpg"></a></div>
+				<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img2/slike/treciFolder/ciler4.jpg" data-lightbox="photos"><img class="img-fluid" src="../img2/slike/treciFolder/ciler4.jpg"></a></div>
+			</div>
+		</div>
+	</div>
+	<div class="photo-gallery">
+		<div class="container">
+			<div class="intro">
+                <h2 class="text-center">Montaža čilera</h2>
+                <p class="text-center">Projektovanje,izrada i montaza rashladnog cilera za rezim rada hladjenja alkohola -25°C</p>
+            </div>
+			<div class="row photos">
+				<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img2/slike/cetvrtiFolder/slika1.jpg" data-lightbox="photos"><img class="img-fluid" src="../img2/slike/cetvrtiFolder/slika1.jpg"></a></div>
+				<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img2/slike/cetvrtiFolder/slika2.jpg" data-lightbox="photos"><img class="img-fluid" src="../img2/slike/cetvrtiFolder/slika2.jpg"></a></div>
+				<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img2/slike/cetvrtiFolder/slika3.jpg" data-lightbox="photos"><img class="img-fluid" src="../img2/slike/cetvrtiFolder/slika3.jpg"></a></div>
+				<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img2/slike/cetvrtiFolder/slika4.jpg" data-lightbox="photos"><img class="img-fluid" src="../img2/slike/cetvrtiFolder/slika4.jpg"></a></div>
+			</div>
+		</div>
+	</div>
+	<div class="photo-gallery">
+		<div class="container">
+			<div class="intro">
+                <h2 class="text-center">OŠ Diša Đurđević-Lazarevac</h2>
+                <p class="text-center">Montaza centralnog VRF Sistema klimatizacije po projektu EPS-a</p>
+            </div>
+			<div class="row photos">
+				<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img2/slike/petiFolder/slika1.jpg" data-lightbox="photos"><img class="img-fluid" src="../img2/slike/petiFolder/slika1.jpg"></a></div>
+				<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img2/slike/petiFolder/slika2.jpg" data-lightbox="photos"><img class="img-fluid" src="../img2/slike/petiFolder/slika2.jpg"></a></div>
+				<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img2/slike/petiFolder/slika3.jpg" data-lightbox="photos"><img class="img-fluid" src="../img2/slike/petiFolder/slika3.jpg"></a></div>
+				<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img2/slike/petiFolder/slika4.jpg" data-lightbox="photos"><img class="img-fluid" src="../img2/slike/petiFolder/slika4.jpg"></a></div>
+			</div>
+		</div>
+	</div>
+<!-- </div> -->
+<br/>
+<br/>
+<br/>
+
+<section class="call-to-action">
+	<div class="container">
+		<div class="col-lg-6 col-md-9 pull-right">
+			<h3>Montaža<br />Redovan servis <br/> Popravka <br/> Demontaža</h3>
+			<!-- <h4>Ostvarite popust</h4>
+			<a href="#" class="cta-btn">Saznaj više</a> -->
+		</div><!-- /.col-md-5 pull-right -->
+	</div><!-- /.container -->
+</section><!-- /.call-to-action -->
+
+<section class="subscribe-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<p><img src="../img/mail-icon.png" alt="" /> Kontaktirajte nas odmah</p>
+			</div>			
+		</div>
+	</div>
+</section>
+
+
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-6">
+				<div class="footer-widget about-widget">
+					<a class="logo" href="../index.html"><img id="maliLogo" src="../img/noviLogo.png"  alt="Awesome Image"/></a>
+					<p>neki mali slogan</p>
+					<div class="contact-info">
+						<div class="single-contact-info">
+							<div class="icon-box">
+								<i class="fa fa-home"></i>
+							</div><!-- /.icon-box -->
+							<div class="text-box">
+								<p><b>Adresa:</b> Kapetana Miloša Žunjiċa 34/a<br />BEOGRAD - Zvezdara.</p>
+							</div><!-- /.text-box -->
+						</div><!-- /.single-contact-info -->
+						<div class="single-contact-info">
+							<div class="icon-box">
+								<i class="fa fa-phone"></i>
+							</div><!-- /.icon-box -->
+							<div class="text-box">
+								<p><b>Telefon:</b>  (+1) 5757 9900 875 78</p>
+							</div><!-- /.text-box -->
+						</div><!-- /.single-contact-info -->
+						<div class="single-contact-info">
+							<div class="icon-box">
+								<i class="fa fa-envelope-o"></i>
+							</div><!-- /.icon-box -->
+							<div class="text-box">
+								<p><b>Email:</b>  mdtechnics@gmail.com</p>
+							</div><!-- /.text-box -->
+						</div><!-- /.single-contact-info -->
+						<div class="single-contact-info">
+							<div class="icon-box">
+								<i class="fa fa-globe"></i>
+							</div><!-- /.icon-box -->
+							<div class="text-box">
+								<p><b>Websajt:</b>  www.mdtechnics.com</p>
+							</div><!-- /.text-box -->
+						</div><!-- /.single-contact-info -->
+					</div><!-- /.contact-info -->
+
+				</div><!-- /.footer-widget -->
+			</div><!-- /.col-md-4 -->
+			<div class="col-lg-3 col-md-6">
+				<div class="footer-widget recent-post">
+					<div class="recent-post-box">
+						<div class="single-recent-post">
+							<div class="img-box">
+								<img src="../img/slicicaFuter1.jpg"  alt="mala slicica slogan" />
+							</div><!-- /.img-box -->
+							<div class="text-box">
+								<h3>Bezbednost</h3>
+								<span>zagarantovana</span>
+							</div>
+						</div><!-- /.single-recent-post -->
+						<div class="single-recent-post">
+							<div class="img-box">
+								<img src="../img/slicicaFuter2.jpg"  alt="druga slicica slogana" />
+							</div><!-- /.img-box -->
+							<div class="text-box">
+								<h3>Kvalitet</h3>
+								<span>zagarantovan</span>
+							</div>
+						</div><!-- /.single-recent-post -->
+						<div class="single-recent-post">
+							<div class="img-box">
+								<img src="../img/slicicaFuter3.jpg"  alt="slicica iz futer slogan" />
+							</div><!-- /.img-box -->
+							<div class="text-box">
+								<h3>Pouzdanost</h3>
+								<span>zagarantovana</span>
+							</div>
+						</div><!-- /.single-recent-post -->
+					</div><!-- /.recent-post-box -->
+				</div><!-- /.footer-widget -->
+			</div><!-- /.col-md-3 -->
+			<div class="col-lg-2 col-md-6">
+				<div class="footer-widget link-widget">
+					<div class="title">
+						<h3>Linkovi</h3>
+						<div class="decor-line"></div><!-- /.decor-line -->
+					</div><!-- /.title -->
+					<ul class="link-list">
+						<li><a href="#"><i class="fa fa-plug"></i> Početna</a></li>
+						<li><a href="#"><i class="fa fa-plug"></i> Galerija</a></li>
+						<li><a href="#"><i class="fa fa-plug"></i> Kontakt</a></li>
+					</ul><!-- /.link-list -->
+				</div><!-- /.footer-widget link-widget -->
+			</div><!-- /.col-md-2 -->
+			<div class="col-lg-3 col-md-6">
+				<div class="footer-widget flicker-widget">
+					<div class="title">
+						<h3>Mala galerija</h3>
+						<div class="decor-line"></div><!-- /.decor-line -->
+					</div><!-- /.title -->
+					<ul class="flicker-list list-inline">
+						<li><a href="#"><img src="../img/flicker-1.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="../img/flicker-2.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="../img/flicker-3.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="../img/flicker-4.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="../img/flicker-5.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="../img/flicker-6.jpg" alt="" /></a></li>
+					</ul><!-- /.flicker-list -->
+					<!-- <a href="#">View More <i class="fa fa-angle-double-right"></i></a> -->
+				</div><!-- /.footer-widget -->
+			</div><!-- /.col-md-3 -->
+		</div><!-- /.row -->
+	</div><!-- /.container -->
+</footer><!-- /.footer -->
+<section class="footer-bottom">
+	<div class="container">
+		<div class="copy-text pull-left">
+			<p>&copy; Copyrights MD Technics. All Rights Reserved</p>
+		</div><!-- /.copy-text pull-left -->
+		<div class="social pull-right">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-linkedin"></a>
+			<a href="#" class="fa fa-pinterest"></a>
+			<a href="#" class="fa fa-google-plus"></a>
+		</div><!-- /.social pull-right -->
+	</div><!-- /.container -->
+</section><!-- /.footer-bottom -->
+
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+
+
+<script src="../assets/jquery.js"></script>
+<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="../assets/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+<!-- revolution slider js -->
+<script src="../assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="../assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="../assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="../assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="../assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="../assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="../assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="../assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="../assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="../assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="../assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="../assets/gmaps.js"></script>
+<!-- google map helper -->  
+<script src="../assets/map-helper.js"></script>
+<script src="../assets/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="../assets/owl.carousel-2/owl.carousel.min.js"></script>
+<script src="../assets/nouislider/nouislider.js"></script>
+<script src="../assets/bootstrap-touch-spin/jquery.bootstrap-touchspin.js"></script>
+<script src="../assets/isotope.js"></script>
+<script src="../assets/masterslider/masterslider.min.js"></script>
+<script src="../assets/bxslider/dist/jquery.bxslider.min.js"></script>
+<script src="../assets/Magnific-Popup-master/dist/jquery.magnific-popup.min.js"></script>
+<script src="../assets/waypoints.min.js"></script>
+<script src="../assets/jquery.counterup.min.js"></script>
+<script src="../assets/wow.min.js"></script>
+<script src="../js/custom.js"></script>
+
+   	<!-- ovo sam dodao --> 
+   	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+	<!-- ovde je kraj dodatog -->
+</body>
+</html>

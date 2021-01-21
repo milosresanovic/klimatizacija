@@ -1,0 +1,32 @@
+.rev_slider_wrapper {
+	.slider1 {
+		.banner-caption-p {
+			color: #fff;
+			font-size: 26px;
+		}
+		.banner-caption-h1 {
+			font-size: 60px;
+			font-family: 'Alegreya Sans';
+			font-weight: bold;
+			color: #fff;
+			line-height: 68px;
+		}
+		.banner-btn {
+			font-weight: 800;
+			font-size: 14px;
+			color: #fff;
+			text-transform: uppercase;
+			background:#00aedd;
+			padding: 0 48px;
+			border: 1px solid #00aedd;
+			text-align: center;
+			display: inline-block;
+			line-height: 50px;
+			transition: all .4s !important;
+			&:hover {
+				background:#173869;
+				border-color:#173869;
+			}
+		}
+	}
+}

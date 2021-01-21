@@ -1,0 +1,47 @@
+.testimonial-about-carousel {
+	.ms-staff-carousel {
+		margin: 0 auto;
+	}
+	.ms-staff-carousel .ms-staff-info {
+		min-height: 140px;
+	}
+	.ms-slide.ms-sl-selected {
+		&:before {
+			content: '';
+			background:transparent url('../img/qoute-icon.png') left top no-repeat;
+			width: 34px;
+			height: 34px;
+			display: block;
+			position: absolute;
+			bottom: -12px;
+			left:35px;
+			z-index: 99;
+		}
+	}
+	.ms-staff-carousel .ms-staff-info.email, .ms-staff-info p {
+		font-size: 16px;
+		color: #666;
+		font-weight: 300;
+		font-family: 'Heebo';
+	}
+	.ms-staff-carousel .ms-staff-info .name {
+		color: #333333;
+		font-size: 20px;
+		font-family: 'Alegreya Sans';
+		font-weight: bold;
+		margin-top: 20px;
+		display: inline-block;
+		&:before {
+			content: '-';
+			display: inline-block;
+			color: #333;
+			margin-right: 5px;
+		}
+		&:after {
+			content: '-';
+			display: inline-block;
+			color: #333;
+			margin-left: 5px;
+		}
+	}
+}

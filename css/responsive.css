@@ -1,0 +1,258 @@
+@media(max-width: 1024px) {
+    .about-us .qoute-form .top-ribbon span {font-size: 21px;}
+    .single-gallery img {width: 100%;}
+    .subscribe-section p {font-size: 28px;}
+    .footer .footer-widget.link-widget {padding-left: 0;margin-top: 30px;}
+    .footer .footer-widget.flicker-widget {padding-left: 0;margin-top: 30px;}
+    .footer .footer-widget.recent-post {margin-left: 0;}
+}
+
+@media(max-width: 1024px) {
+    .header-fixed {
+        position: relative;
+        top: 0;
+        margin-top: 0;
+    }
+    .page-title {padding-top: 100px;}
+    .header.header-1 {
+        background: #000000;
+        padding: 20px 0;
+    }
+    .navbar-header {
+        width: 100%;
+        float: none;
+        margin: 0 !important;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    .navbar-default .navbar-toggle {
+        display: block;
+        /*margin-right: 0;*/
+        margin-top: 14px;
+        border-color: #fff;
+        background-color: transparent !important;
+    }
+    .navbar-default .navbar-toggle:hover {border-color: #00aedd;}
+    .navbar-default .navbar-toggle .icon-bar {background: #fff;}
+    .navbar-default .navbar-toggle:hover .icon-bar {background: #00aedd;}
+    .navbar-collapse.collapse {
+        display: none!important;
+        height: 0!important;
+        padding-bottom: 0;
+        overflow: auto!important;
+        width: 100%;
+    }
+    .navbar-default .navbar-collapse {
+        background: #000000;
+        padding: 0px 0px !important;
+        padding-bottom: 0px !important;
+        border: 1px dashed #282828;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+        height: auto !important;
+        max-height: 70vh;
+    }
+    .navbar-collapse.in {
+        overflow-y: auto;
+    }
+    .navbar .nav {
+        width: 100%;
+        text-align: left;
+    }
+    .navbar .nav > li {
+        display: block;
+        padding: 0 !important;
+        width: 100%;
+    }
+    .navbar .nav > li > a {
+        padding: 8px 0;
+    }
+    .header.header-3 .navbar .nav > li > a {
+        color: #fff;
+    }
+    .navbar .right-box.nav {
+        width: 100%;
+        margin: 0;
+    }
+    .navbar .right-box.nav > li > a {
+        border: none !important;
+        padding: 8px 0;
+    }
+    .navbar .nav > li > a:after {
+        display: none;
+    }
+    .navbar .nav.navigation-box + .nav {
+        border-top: 1px dashed #282828;
+    }
+    .navbar .navbar-nav > li > .sub-menu,
+    .navbar .navbar-nav > li > .sub-menu > li > .sub-menu {
+        position: relative !important;
+        width: 100% !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        left: auto;
+        right: auto;
+        top: auto;
+        transition: none;
+        display: none;
+        float: none;
+        margin: 0;
+    }
+    .navbar .navbar-nav > li > .sub-menu > li > a::after {
+        display: none;
+    }
+    .navbar .nav > li + li {
+        padding: 0 !important;
+        border-top: 1px dashed #282828;
+        display: block;
+        /*float: none;*/
+    }
+    .navbar .nav > li > a,
+    .navbar .right-box.nav > li > a {
+        padding: 0;
+        display: block;
+        font-size: 16px;
+        padding: 16px 0 16px 20px !important;
+        transition: background 0.4s ease 0s;
+        text-transform: capitalize;
+        color: #fff;
+    }
+    .stricky-fixed.navbar .nav > li {
+        padding: 0 !important;
+    }
+    .navbar .navbar-nav .sub-nav-toggler {
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        padding: 9px 9px; 
+        position: absolute;top:0;right:0;margin-top: 8px;
+        margin-right: 10px;
+    }
+    .navbar .navbar-nav .sub-nav-toggler .icon-bar {
+        background-color: #fff;
+        border-radius: 1px;
+        display: block;
+        height: 1px;
+        width: 20px;
+    }
+    .navbar .navbar-nav .sub-nav-toggler .icon-bar + .icon-bar {
+        margin-top: 4px;        
+    }
+    .navbar .nav li a {position: relative;}
+    .navbar .navbar-nav > li > .sub-menu li a {padding: 10px 0 10px 20px;}
+    .navbar .right-box.nav > li > .sub-menu form {width: 100%;}
+    /*.navbar .navbar-header {padding-bottom: 20px;}*/
+    .stricky-fixed.navbar .navbar-header {padding-bottom: 0px;}
+    .stricky-fixed.navbar .navbar-toggle {margin: 13px 0 !important;}
+
+    .header.header-2 .navbar .navbar-toggle {margin: 32px 0;border-color: #333;}
+    .header.header-2 .navbar .navbar-toggle .icon-bar {background: #333;}
+    .header.header-2 .navbar .nav > li {padding: 0;}
+    .header.header-2 .navbar .nav > li > a {color: #fff;}
+    .header.header-2 .navbar .nav > li > a:hover {color: #00aedd;}
+
+    .header.header-3 .navbar .navbar-toggle {margin: 20px 0 0;border-color: #2B3134;}
+    .header.header-3 .navbar .navbar-toggle .icon-bar {background: #2B3134;}
+
+    .header.header-5 {background: #000;}
+    .header.header-5 .navbar .navbar-toggle {margin: 40px 0;margin-bottom: 0;}
+    .header-navigation.navbar .nav > li + li {margin-left: 0;}
+    .navbar .container {padding: 0;}
+    .navbar .nav.navigation-box {display: block;}
+    .header-navigation #main-nav-bar {float: none;display: block;}
+
+    .header-2-navigation .navbar-header {padding-right: 145px;}
+    .header-2-navigation.navbar-default .navbar-toggle {border-color: #232323;}
+    .header-2-navigation.navbar-default .navbar-toggle .icon-bar {background: #232323;}
+    .header-2-navigation.navbar-default .navbar-toggle {margin-top: 38px;}
+    .header-2 .header-2-navigation .container #main-nav-bar > .navigation-box > li + li {margin-left: 0;}
+    .header-2 .header-2-navigation .navbar .nav > li + li {border-top: 1px dashed #282828;display: block;float: left !important;padding: 0;}
+    .header-2 .header-2-navigation .container #main-nav-bar > .navigation-box > li > a {color: #fff;}
+    .header-2.stricky-fixed .header-2-navigation.navbar-default .navbar-toggle {margin-top: 22px;}
+}
+
+@media(max-width: 1024px) {
+    .sec-pad {padding: 80px 0;}
+    .service-carousel-area .single-service-carousel {padding: 40px;}
+    .about-area-2 {padding-bottom: 40px;}
+    .about-area-2 .content-box {margin-bottom: 40px;}
+    .about-area-2 .single-about-2 {margin-bottom: 40px;}
+    .single-service-page .faq-accrodion {margin-top: 50px;}
+    .single-blog-page .text-box ul.check-list li {position: relative;padding-left: 20px;}
+    .single-blog-page .text-box ul.check-list li .fa {position: absolute;top:10px;left:0%;}
+}
+
+@media(max-width: 768px) {
+    .gallery-area .top-box .pull-left,
+    .gallery-area .top-box .pull-right {width: 100%;text-align: center;}
+    .gallery-area .top-box .gallery-filter {margin-bottom: 30px;}
+    .fun-fact .container .span-5 {width: 33.33333%;}
+    .fun-fact .container .span-5 .single-fun-fact {min-height: 161px;margin-bottom: 25px;}
+    .blog-area {padding-bottom: 40px;}
+    .blog-area .single-blog-post {margin-bottom: 40px;}
+    .footer {padding-bottom: 45px;}
+    .footer .footer-widget {margin-bottom: 40px;}
+    .testimonial-about-carousel .ms-staff-info p br {display: none;}
+    .pricing-area {padding-bottom: 40px;}
+    .single-pricing {margin-bottom: 40px;}
+    .blog-page-area .sidebar.right-sidebar,
+    .single-service-page .sidebar.right-sidebar {margin-top: 50px;padding-left: 0;}
+    .subscribe-section p {margin-bottom: 25px;}
+
+    #slikaLogo{
+        width: 150px;
+    }
+}
+
+@media(max-width: 667px) {
+    .top-bar .pull-left,
+    .top-bar .pull-right {width: 100%;text-align: center;}
+    .header .container .contact-left,
+    .header .container .contact-right {position: relative;display: block;width: 100%;margin-top: 30px;}
+    .header .container .contact-left .img-box,
+    .header .container .contact-right .img-box {display: none;}
+    .header .container .contact-left .text-box,
+    .header .container .contact-right .text-box {text-align: center;padding-left: 0;padding-right: 0;display: block;}
+    .tp-caption {display: none !important;}
+    .about-us .content-box {padding: 70px 0;}
+    .about-us .qoute-form {margin-top: 0;}
+    .stricky-fixed.navbar .navbar-toggle {margin-right: 15px !important;}
+    .header-2 .header-2-navigation .container .button-box {display: none;}
+    .header-2-navigation .navbar-header {padding-right: 0px;}
+    .service-area-2 .span-5 {width: 33.3333%;margin-bottom: 20px;}
+    .footer-2 .footer-top .pull-left, 
+    .footer-2 .footer-top .pull-right {width: 100%;text-align: center;}
+    .footer-2 .footer-top .pull-right {margin-top: 30px;}
+    .footer-bottom .pull-left,
+    .footer-bottom .pull-right {text-align: center;width: 100%;}
+
+    #slikaLogo{
+        width: 140px;
+    }
+}
+
+@media(max-width: 375px) {
+    .single-gallery .overlay .content p,
+    .single-gallery .overlay .content h3 {display: none;}
+    .fun-fact .container .span-5 {width: 100%;}
+    .subscribe-section form button {position: relative;width: 100%;}
+    .header-2 .header-2-navigation .navbar-brand {padding-right: 30px;}
+    .about-area-2 .content-box p br {display: none;}
+    .about-area-2 .single-about-2 .img-box, .about-area-2 .single-about-2 .text-box {display: block;padding: 0;}
+    .about-area-2 .single-about-2 .text-box {margin-top: 25px;}
+    .service-area-2 .span-5 {width: 100%;}
+    .service-carousel-area .single-service-carousel {padding: 15px;}
+    .footer-2 .footer-top .btn-1 {margin-left: auto;margin-right: auto;display: block;}
+    
+    #slikaLogo{
+        width: 120px;
+    }
+    .subscribe-section .container .row .col-md-6 p{
+        font-size: 21px;
+    }
+}

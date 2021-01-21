@@ -1,0 +1,112 @@
+
+.accrodion+ .accrodion {
+	margin-top: 0px;
+	border-top:0;
+}
+.accrodion {
+	border: 1px solid #ececec;
+}
+.accrodion .accrodion-title {
+	// padding: 22px 50px;
+	padding: 0;
+	position: relative;
+	cursor: pointer;
+}
+.accrodion .accrodion-title h4 {
+	font-size: 18px;
+	color: #666666;
+	margin: 0;
+	font-family: 'Alegreya Sans';
+	font-weight: 500;
+	position: relative;
+	padding: 15px 0px;
+	padding-left: 75px;
+}
+.accrodion .accrodion-title h4:before {
+	content: '\f0a9';
+	// content: '+';
+	font-family: 'FontAwesome';
+	color: #848484;
+	font-size: 14px;
+	// position: absolute;
+	// top: 18px;
+	// left: 20px;
+	display: inline-block;
+	background:#fff;
+	width: 60px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-right: 1px solid #ececec;
+	margin-right: 15px;
+	position: absolute;
+	top:0;left:0;
+}
+.accrodion.active .accrodion-title h4:before {
+	content: "\f0ab";
+	// content: '-';
+	color: #fff;
+	background:#00aedd;
+	
+}
+.accrodion.active .accrodion-title h4 {
+	// color: #F6B129;
+}
+.accrodion .accrodion-content {
+	padding-left: 30px;
+	padding-right: 30px;
+	border-top: 1px solid #e5e5e5;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.ask-form {
+	// padding-left: 10px;
+}
+.ask-form form {
+	background:#E9633A;
+	padding: 40px;
+}
+.ask-form form h3 {
+	font-size: 24px;
+	color: #fff;
+	font-weight: normal;
+	margin: 0;
+	font-family: 'Montserrat';
+	margin-bottom: 30px;
+}
+.ask-form form input,
+.ask-form form textarea {
+	width: 100%;
+	height: 50px;
+	border: 1px solid rgba(255,255,255,.3);
+	outline: none;
+	padding: 10px 15px;
+	color: #fff;
+	background-color: transparent;
+	&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		color: #fff;
+	}
+	&::-moz-placeholder { /* Firefox 19+ */
+		color: #fff;
+	}
+	&:-ms-input-placeholder { /* IE 10+ */
+		color: #fff;
+	}
+	&:-moz-placeholder { /* Firefox 18- */
+		color: #fff;
+	}
+}
+.ask-form form input + input {
+	margin-top: 20px;
+}
+.ask-form form textarea {
+	height: 120px;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+.ask-form form .thm-btn {
+	margin-top: 20px;
+	background:#fff;
+	color: #222;
+}

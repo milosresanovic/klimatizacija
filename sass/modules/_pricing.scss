@@ -1,0 +1,44 @@
+.single-pricing {
+	text-align: center;
+	background:#fff;
+	ul, li {margin: 0;padding: 0;list-style: none;}
+	&.standard {
+		.top-box {background:#173869;}
+	}
+	.top-box {
+		background:#00aedd;
+		h3 {margin: 0;font-size: 26px;color: #fff;font-weight: bold;line-height: 60px;}
+	}
+	.price-box {
+		padding: 55px 0;
+		h3, p {margin: 0;}
+		.inner {display: inline-block;position: relative;
+			span.down {position: absolute;top: 7px;left:-25px;font-family: 'Alegreya Sans';font-size: 180px;color: #f7f7f7;font-weight: bold;letter-spacing: -.06em;}
+			.upper {position: relative;z-index: 9;
+				h3 {font-size: 90px;color: #333333;font-family: 'Alegreya Sans';font-weight: bold;line-height: 35px;
+					span {font-size: 40px;}
+				}
+				p {font-size: 15px;margin-top: 5px;}
+			}
+		}
+	}
+	.list-box {
+		padding-top: 40px;
+		padding-bottom: 35px;
+		border-top: 1px solid #f4f4f4;
+		ul {
+			li + li {
+				margin-top: 15px;
+			}
+		}
+		.fa {margin-right: 6px;}
+		i.fa-check {color: #00cc3a;font-size: 13px;}
+		i.fa-close {color: #f20e24;font-size: 13px;}
+	}
+	.button-box {
+		padding-bottom: 40px;
+		a {width: 165px;height: 50px;border: 1px solid #00aedd;line-height: 48px;color: #00aedd;background:#00aedd;text-transform: uppercase;background-color: transparent;display: inline-block;font-size: 14px;font-weight: bold;transition: all .4s ease;
+			&:hover {background:#00aedd;color: #fff;}
+		}
+	}
+}

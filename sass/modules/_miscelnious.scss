@@ -1,0 +1,48 @@
+@media (min-width: 1200px) {
+	.container {
+		padding: 0;
+	}
+}
+body {
+	font-family: 'Heebo';
+	color: #666666;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 300;
+}
+a:hover, a:visited, a:active {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Alegreya Sans';
+	font-weight: normal;
+}
+
+.sec-pad {
+	padding: 150px 0;
+}
+
+.sec-title {
+	margin-bottom: 50px;
+	h2 {margin: 0;font-size: 50px;color: #333333;font-weight: bold;line-height: 50px;}
+	.decor-line {
+		width: 53px;
+		height: 10px;
+		display: inline-block;
+		margin-top: 15px;
+		background:  url(../img/decor-line.png) 0 0 no-repeat;
+	}
+}
+
+.dark-bg {
+	background:#f6f8f9;
+}
+
+.post-pagination {
+	margin-top: 30px;
+	ul li a {font-size: 14px;color: #b2b2b2;text-align: center;display: inline-block;width: 50px;height: 50px;border: 1px solid #e4e4e4;transition: .4s;line-height: 48px;font-weight: bold;
+		&:hover {background:#00aedd;color: #fff;}
+	}
+	ul li.active a {background:#00aedd;color: #fff;}
+}

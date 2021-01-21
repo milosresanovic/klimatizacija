@@ -1,0 +1,22 @@
+.feature-carousel {
+	.owl-item.center .single-feature-carousel {
+		background:#173869;
+	}
+	.owl-dots {margin-top: 45px;}
+	.owl-dots .owl-dot.active span, .owl-dots .owl-dot:hover span {
+		width: 13px;height: 13px;
+		border: 2px solid #00aedd;
+		border-radius: 50%;
+		background-color: transparent;
+		position: relative;
+		top: 2px;
+	}
+	.single-feature-carousel {
+		padding: 50px 45px;
+		background:#1d3e70;
+		img {width: auto;min-height: 56px;margin-bottom: 28px;}
+		h3,p {margin: 0;color: #fff;}
+		h3 {font-size: 26px;font-weight: bold;margin-bottom: 15px;}
+		a.read-more {text-transform: uppercase;font-size: 14px;color: #00aedd;font-weight: 800;margin-top: 20px;display: inline-block;}
+	}
+}

@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?vekd27');
+  src:  url('fonts/icomoon.eot?vekd27#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?vekd27') format('truetype'),
+    url('fonts/icomoon.woff?vekd27') format('woff'),
+    url('fonts/icomoon.svg?vekd27#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="bizcon-"], [class*=" bizcon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bizcon-light-bulb-1:before {
+  content: "\e900";
+}
+.bizcon-sprout:before {
+  content: "\e901";
+}
+.bizcon-goal:before {
+  content: "\e902";
+}
+.bizcon-visualization:before {
+  content: "\e903";
+}
+.bizcon-trophy:before {
+  content: "\e904";
+}
+.bizcon-panel:before {
+  content: "\e905";
+}
+.bizcon-briefcase:before {
+  content: "\e906";
+}
+.bizcon-bar-chart:before {
+  content: "\e907";
+}
+.bizcon-startup:before {
+  content: "\e908";
+}
+.bizcon-dollar:before {
+  content: "\e909";
+}
+.bizcon-thinking:before {
+  content: "\e90a";
+}
+.bizcon-management:before {
+  content: "\e90b";
+}
+.bizcon-time:before {
+  content: "\e90c";
+}
+.bizcon-light-bulb:before {
+  content: "\e90d";
+}
+.bizcon-humanpictos:before {
+  content: "\e90e";
+}
+.bizcon-team:before {
+  content: "\e90f";
+}
+.bizcon-package:before {
+  content: "\e910";
+}
+.bizcon-teamwork:before {
+  content: "\e911";
+}
+.bizcon-care:before {
+  content: "\e912";
+}
+.bizcon-handshake:before {
+  content: "\e913";
+}
+.bizcon-puzzle:before {
+  content: "\e914";
+}
+.bizcon-networking-2:before {
+  content: "\e915";
+}
+.bizcon-user-1:before {
+  content: "\e916";
+}
+.bizcon-user:before {
+  content: "\e917";
+}
+.bizcon-chat:before {
+  content: "\e918";
+}
+.bizcon-networking-1:before {
+  content: "\e919";
+}
+.bizcon-group:before {
+  content: "\e91a";
+}
+.bizcon-worldwide:before {
+  content: "\e91b";
+}
+.bizcon-podium:before {
+  content: "\e91c";
+}
+.bizcon-idea-2:before {
+  content: "\e91d";
+}
+.bizcon-laptop-1:before {
+  content: "\e91e";
+}
+.bizcon-target:before {
+  content: "\e91f";
+}
+.bizcon-networking:before {
+  content: "\e920";
+}
+.bizcon-idea-1:before {
+  content: "\e921";
+}
+.bizcon-coin-1:before {
+  content: "\e922";
+}
+.bizcon-presentation:before {
+  content: "\e923";
+}
+.bizcon-flag:before {
+  content: "\e924";
+}
+.bizcon-diamond:before {
+  content: "\e925";
+}
+.bizcon-like:before {
+  content: "\e926";
+}
+.bizcon-settings:before {
+  content: "\e927";
+}
+.bizcon-ipo:before {
+  content: "\e928";
+}
+.bizcon-contract:before {
+  content: "\e929";
+}
+.bizcon-line-chart:before {
+  content: "\e92a";
+}
+.bizcon-coin:before {
+  content: "\e92b";
+}
+.bizcon-idea:before {
+  content: "\e92c";
+}
+.bizcon-hourglass:before {
+  content: "\e92d";
+}
+.bizcon-laptop:before {
+  content: "\e92e";
+}
+.bizcon-money-bag:before {
+  content: "\e92f";
+}
+.bizcon-stationery:before {
+  content: "\e930";
+}
+.bizcon-growth:before {
+  content: "\e931";
+}

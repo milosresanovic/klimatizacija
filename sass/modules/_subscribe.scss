@@ -1,0 +1,15 @@
+.subscribe-section {
+	background:#00aedd;
+	padding: 65px 0;
+	p {font-size: 35px;font-family: 'Alegreya Sans';font-weight: bold;color: #fff;margin: 0;line-height: 50px;
+		img {margin-right: 20px;}
+	}
+	form {
+		background:#fff;position: relative;
+		input {width: 100%;height: 50px;background-color: transparent;outline: none;border: none;padding-left: 20px;}
+		button {border: none;outline: none;color: #fff;position: absolute;top:0;right: 0;height: 50px;background:#173869;text-transform: uppercase;font-weight: 800;font-size: 14px;line-height: 50px;padding: 2px 33px;transition: all .3s ease;
+			&:hover {background:#232323;color: #fff;}
+			i {margin-right: 7px;}
+		}
+	}
+}
