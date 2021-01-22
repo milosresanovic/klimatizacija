@@ -235,6 +235,11 @@
         width: 140px;
     }
 }
+@media(max-width: 575px){
+    .img-fluid{
+        margin-bottom: 9px;
+    }
+}
 
 @media(max-width: 375px) {
     .single-gallery .overlay .content p,
@@ -254,5 +259,8 @@
     }
     .subscribe-section .container .row .col-md-6 p{
         font-size: 21px;
+    }
+    .uRedu a{
+        font-size: 20px;
     }
 }

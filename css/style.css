@@ -2712,3 +2712,15 @@ h1, h2, h3, h4, h5, h6 {
 .padding-nula{
   padding:0px;
 }
+.uRedu{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.uRedu a{
+  font-size: 30px;
+  color: white;
+}
+.uRedu img{
+  padding-bottom: 4px;
+}
