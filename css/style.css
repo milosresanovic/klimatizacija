@@ -220,7 +220,9 @@ h1, h2, h3, h4, h5, h6 {
   display: table-cell;
   vertical-align: middle;
 }
-
+.pading-0{
+  padding:0px !important;
+}
 .header-navigation .navbar-header {
   float: right;
 }
@@ -2464,7 +2466,9 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff url(../img/kontaktNaslovna.jpg) center center no-repeat;
   background-size: cover;
   padding: 100px 0;
-  height: 700px;
+  background-position: center center;
+  /* height: 100px; */
+  height: 600px;
 }
 .page-title h2 {
   font-size: 60px;
@@ -2663,7 +2667,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left:50px;
 }
 
-#opisFirme{
+.opisFirme{
   width: 100%;
   padding:3px 0px 3px 0px;
   text-align: center;
@@ -2694,7 +2698,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #slikaLogo{
-  width: 15%;
+  width: 165.5px;
 }
 .centriranje{
   margin:0px auto;
