@@ -2028,7 +2028,9 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
   text-decoration: none !important;
 }
-
+.width-100{
+  width: 100%;
+}
 .gallery-area .view-more {
   width: 165px;
   height: 50px;
@@ -2653,10 +2655,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
-
-
+.awesome-slicice{
+  color: #00aedd;
+  font-size: 60px;
+}
+.margin-left-50{
+  margin-left:50px;
+}
 
 #opisFirme{
+  width: 100%;
+  padding:3px 0px 3px 0px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #337ab7;
+}
+.font-slider-veliki-50{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+}
+.font-slider-veliki-50{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+}
+.font-16{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#opisFirmeLOL{
+  font-size: 16px;
   width: 100%;
   padding:3px 0px 3px 0px;
   text-align: center;
