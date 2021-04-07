@@ -231,6 +231,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   padding-left: 40px;
 }
+.bela-slova{
+  color: white !important;
+}
 .header-navigation.navbar-default {
   background: none;
   border: none;
@@ -2151,7 +2154,7 @@ h1, h2, h3, h4, h5, h6 {
 * 15. fun fact styles 
 ***************************/
 .fun-fact {
-  background: url(../img2/scroler.jpg) center center no-repeat fixed;
+  /* background: url(../img2/scroler.jpg) center center no-repeat fixed; */
   background-size: cover;
   position: relative;
   padding: 90px 0;
@@ -2463,7 +2466,7 @@ h1, h2, h3, h4, h5, h6 {
 * 20. page title styles 
 ***************************/
 .page-title {
-  background: #fff url(../img/kontaktNaslovna.jpg) center center no-repeat;
+  background: #fff url(../img/kontaktNaslovnaSmanjena.jpg) center center no-repeat;
   background-size: cover;
   padding: 100px 0;
   background-position: center center;
@@ -2657,16 +2660,21 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   color: #222;
 }
-
+.margina-dole-30{
+  margin-bottom: 30px;
+}
 /*# sourceMappingURL=style.css.map */
 .awesome-slicice{
   color: #00aedd;
   font-size: 60px;
 }
+
 .margin-left-50{
   margin-left:50px;
 }
-
+.idukurac{
+  font-size: 40px;
+}
 .opisFirme{
   width: 100%;
   padding:3px 0px 3px 0px;
